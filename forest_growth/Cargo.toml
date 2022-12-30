@@ -1,0 +1,9 @@
+[package]
+name = "forest_growth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.9"
+# bevy = { version = "0.9.1", features = ["dynamic"] } # Dynamic linking for Faster compilation, doesn't work on Windows yet. Remove before shipping
+soil_map = { path = "../soil_map" }
